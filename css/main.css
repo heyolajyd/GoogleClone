@@ -1,0 +1,206 @@
+/*********************************
+		General 
+*********************************/
+html
+		{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Static background */
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+/*	color: darkgray;*/
+	font-family: 'Arial', sans-serif;
+	font-size: small;
+}
+
+
+/* General links style */
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+ img {
+ 	max-width: 100%;
+ }
+/*more of hen the page is wide screen*/
+/*ul{
+	margin-top: 8px;
+	margin-right:2%
+}*/
+
+/*********************************
+		Heading
+
+*********************************/
+
+#mainHeader{
+	display: block;
+	width: 100%;
+	height: 10%;
+
+}
+
+ /* float header right*/
+#mainHeader li a{
+	padding: 10px 0 15px 0;
+	display: inline-block;
+	float:right;
+	margin:5px;
+	color: #000;
+	font-weight: lighter;
+
+}
+
+/*sign in button*/
+span {
+	width: 75px;
+	height: 25px;
+	background: #4386F8;
+	color: #fff;
+	font-style: normal;
+	font-weight:bold;
+	margin-top: 25px;
+/*	margin-right: 15px;*/
+	padding:10px 15px;
+	border-radius: 2px;
+	font-size: 1em;
+	
+
+}
+  
+ .butn a{
+	text-decoration: none;
+}
+
+/*********************************
+		Section
+
+*********************************/
+/*General body section*/
+body #section{
+
+	clear: both;
+	height: 70%;
+	display: block;
+	padding-top: 112px;
+/*	padding-top: 112px;*/
+}
+
+/* styling logo */
+.logo{
+	width: 40%;
+	margin: 0 30%;
+
+}
+
+/*.logo img{
+	width: 80%;
+/*	margin-top: 15%;*/
+/*}*/
+
+
+/* Search area */
+.search {
+	display: block;
+	width: 85%;
+	height: 25px;
+	margin:0 auto 15px;
+	border-color:0.1px #b2b2b2;
+}
+
+.voiceImg{
+
+}
+
+/*.quickSearch{
+	display: block;
+	width:20%;
+	margin: auto auto 15px;
+}*/
+
+input[class="search"]:focus {
+	border:0.5px solid #4285F4;
+
+}
+
+/*To Align feeling lucky search buttons*/
+.positionButton {
+	text-align: center;
+}
+
+.positionButton input.quickSearch:hover {
+	box-shadow: 2 2 0.5 red;
+
+}
+
+/* button below search area */
+.quickSearch{
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+	background: #f3f3f3;
+	font-size: 12px;
+	color:black;
+	border-radius: 2px;
+	margin: 0 2px;
+}
+
+
+/*********************************
+		Footer 
+*********************************/
+/* footer container */
+footer{
+	height:8%;
+	width:100%;
+	background-color: #F2F2F2;
+	padding-bottom: 10px;
+	border-top: 1px solid #E4E4E4;
+	font-size: 1em;
+	padding-top: 10px;
+	/*margin-top: 2%;*/
+	}
+
+/* left footer container */
+#leftFooter{
+	width: 45%;
+	float: left;
+	
+}
+/* right footer container */
+
+
+/* left footer links */
+#leftFooter li a{
+	padding: 5px 10px 0 10px;
+	float:left;
+	margin-right: 5px;
+	color: #B0B07B;
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	
+}
+/* right footer links */
+#rightFooter li a{
+	padding: 5px 5px 0 10px;
+	float:right;
+	margin-right: 15px;
+	color: #B0B07B;
+	font-family: Arial, sans-serif;
+}
+
+.group:before, .group:after{
+	content: "";
+	display: table;
+}
+.group:after{
+	clear:both;
+}
+
